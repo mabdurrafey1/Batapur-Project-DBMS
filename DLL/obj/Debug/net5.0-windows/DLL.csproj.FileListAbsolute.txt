@@ -1,0 +1,12 @@
+C:\Users\Ahmed\source\repos\Project\DLL\bin\Debug\net5.0-windows\DLL.deps.json
+C:\Users\Ahmed\source\repos\Project\DLL\bin\Debug\net5.0-windows\DLL.dll
+C:\Users\Ahmed\source\repos\Project\DLL\bin\Debug\net5.0-windows\ref\DLL.dll
+C:\Users\Ahmed\source\repos\Project\DLL\bin\Debug\net5.0-windows\DLL.pdb
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\DLL.csprojAssemblyReference.cache
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\DLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\DLL.AssemblyInfoInputs.cache
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\DLL.AssemblyInfo.cs
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\DLL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\DLL.dll
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\ref\DLL.dll
+C:\Users\Ahmed\source\repos\Project\DLL\obj\Debug\net5.0-windows\DLL.pdb

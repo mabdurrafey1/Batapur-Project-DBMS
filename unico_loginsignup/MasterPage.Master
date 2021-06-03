@@ -1,0 +1,221 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Project.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <title>Unico Template</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Mdbootstrap/css/mdb.min.css" rel="stylesheet" />
+    <script src="Mdbootstrap/js/mdb.min.js"></script>
+    <link href="bootswatch-5.0.1/package/dist/materia/bootstrap.css" rel="stylesheet" />
+    <link href="bootswatch-5.0.1/package/dist/materia/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="col-12">
+            <header class="row">
+                <!-- Top Nav -->
+                <div class="col-12 bg-dark py-2 d-md-block d-none">
+                    <div class="row">
+                        <div class="col-auto mr-auto">
+                            <ul class="top-nav">
+                                <li>
+                                    <a href="tel:+92332-3043115"><i class="fa fa-phone-square mr-2"></i>+92332-3043115</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:hassanhadayat3@gmail.com"><i class="fa fa-envelope mr-2"></i>hassanhadayat3@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-auto">
+                            <ul class="top-nav">
+                                <li>
+                                    <a href="register.html"><i class="fas fa-user-edit mr-2"></i>Register</a>
+                                </li>
+                                <li>
+                                    <a href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Top Nav -->
+
+                <!-- Header -->
+                <div class="col-12 bg-white pt-4">
+                    <div class="row">
+                        <div class="col-lg-auto">
+                            <div class="site-logo text-center text-lg-left">
+                                <a href="index.html">Unico</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 mx-auto mt-4 mt-lg-0">
+                            <form action="#">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control border-dark" placeholder="Search..." />
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-dark"><i class="fas fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-auto text-center text-lg-left header-item-holder">
+                            <a href="#" class="header-item">
+                                <i class="fas fa-heart mr-2"></i><span id="header-favorite">0</span>
+                            </a>
+                            <a href="#" class="header-item">
+                                <i class="fas fa-shopping-bag mr-2"></i><span id="header-qty" class="mr-3">2</span>
+                                <i class="fas fa-money-bill-wave mr-2"></i><span id="header-price">$4,000</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Nav -->
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
+                            <button class="navbar-toggler d-lg-none border-0" type="button" data-toggle="collapse" data-target="#mainNav">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="mainNav">
+                                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="electronics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brands</a>
+                                        <div class="dropdown-menu" aria-labelledby="electronics">
+                                            <a class="dropdown-item" href="category.html">Adidas</a>
+                                            <a class="dropdown-item" href="category.html">Puma</a>
+                                            <a class="dropdown-item" href="category.html">Sketchers</a>
+                                            <a class="dropdown-item" href="category.html">Bata</a>
+                                            <a class="dropdown-item" href="category.html">Servis</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="fashion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
+                                        <div class="dropdown-menu" aria-labelledby="fashion">
+                                            <a class="dropdown-item" href="category.html">Men's</a>
+                                            <a class="dropdown-item" href="category.html">Women's</a>
+                                            <a class="dropdown-item" href="category.html">Children's</a>
+                                            <a class="dropdown-item" href="category.html">Accessories</a>
+                                            <a class="dropdown-item" href="category.html">Footwear</a>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- Nav -->
+
+                </div>
+                <!-- Header -->
+
+            </header>
+        </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <hr />
+    <footer class="bg-light text-center">
+        <!-- Grid container -->
+        <div class="container pb-0">
+            <!-- Section: Form -->
+            <section class="">
+                <form action="#">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form5Example2"
+                                    class="form-control" />
+                                <label class="form-label"
+                                    for="form5Example2">
+                                    Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary
+                                        mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+        </div>
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #3b5998;"
+                    href="#!"
+                    role="button"><i class="fab fa-facebook-f"></i></a>
+                <!-- Twitter -->
+                <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #55acee;"
+                    href="#!"
+                    role="button"><i class="fab fa-twitter"></i></a>
+                <!-- Google -->
+                <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #dd4b39;"
+                    href="#!"
+                    role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #ac2bac;"
+                    href="#!"
+                    role="button"><i class="fab fa-instagram"></i></a>
+                <!-- Linkedin -->
+                <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #0082ca;"
+                    href="#!"
+                    role="button"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a
+                    class="btn btn-primary btn-floating m-1"
+                    style="background-color: #333333;"
+                    href="#!"
+                    role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0,
+                    0, 0.2);">
+            © 2020 Copyright:
+                    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+</html>

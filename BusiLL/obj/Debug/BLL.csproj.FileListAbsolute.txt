@@ -1,0 +1,9 @@
+C:\Users\Ahmed\source\repos\Project\BusiLL\bin\Debug\BusiLL.dll
+C:\Users\Ahmed\source\repos\Project\BusiLL\bin\Debug\BusiLL.pdb
+C:\Users\Ahmed\source\repos\Project\BusiLL\bin\Debug\DAL.dll
+C:\Users\Ahmed\source\repos\Project\BusiLL\bin\Debug\DAL.pdb
+C:\Users\Ahmed\source\repos\Project\BusiLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Ahmed\source\repos\Project\BusiLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\source\repos\Project\BusiLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Ahmed\source\repos\Project\BusiLL\obj\Debug\BusiLL.dll
+C:\Users\Ahmed\source\repos\Project\BusiLL\obj\Debug\BusiLL.pdb
